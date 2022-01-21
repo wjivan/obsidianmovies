@@ -21,7 +21,7 @@ You need to install Python and its required packages for this to work. To instal
 - synopsis
 - year
 
-<pre><code>
+<code>
 from imdb import IMDb
 
 def movie_search(my_title):
@@ -151,11 +151,11 @@ def movie_search(my_title):
         information['year'] = ''
 
     return(information)
-    </code></pre>
+    </code>
 
 3. Obsidian reads markdown pages so I automate the creation of markdown pages using python using [mdutils](https://pypi.org/project/mdutils/). I create a function to automate the creation of a standard template filled in with the new metadata:
 
-<pre><code>
+<code>
 def create_markdown_page(myresults):
     """
     Given a dataframe containing all the information about movies, 
@@ -204,6 +204,6 @@ def create_markdown_page(myresults):
 
         # Create markdown
         mdFile.create_md_file()
-</code></pre>
+</code>
 
 You can drag and drop these newly created markdown sheets into Obsidian. 
