@@ -4,6 +4,16 @@ from mdutils.mdutils import MdUtils
 
 # Write a function to get intended results given a movie title
 def movie_search(my_title):
+    """
+    Given a string (movie title), find the metadata for that movie (or the closest
+    one matching that name).
+
+    Parameters
+    ----------
+    my_title : string
+
+    returns a dictionary of metadata
+    """
     # create a dictionary to store data
     information = dict()
 
